@@ -4,7 +4,7 @@
 This project predicts the price of aluminium based on historical data using a machine learning model wrapped in a user-friendly Flask web interface.
 
 > 💼 Built as part of vocational training at **NALCO, Angul**  
-> 👨‍💻 By: [Kumar Abhisek]([https://www.linkedin.com/in/kumarabhisek](https://www.linkedin.com/in/kumar-abhisek-6b630424a/))
+> 👨‍💻 By: [Kumar Abhisek](https://www.linkedin.com/in/kumar-abhisek-6b630424a/)
 
 ---
 
