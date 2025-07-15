@@ -83,6 +83,8 @@ def index():
         fun_facts=fun_facts,
         usd_to_inr_live=usd_to_inr_live,
         nalco_share_price=nalco_share_price
+        
+
     )
 
 if __name__ == '__main__':
