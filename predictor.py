@@ -60,7 +60,7 @@ def index():
             # Predict
             predicted_price = model.predict([[timestamp]])[0]
             prediction = round(predicted_price, 2)
-
+            
         except Exception as e:
             prediction = f"Error: {e}"
 
@@ -68,4 +68,6 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    from waitress import serve
+    serve(app, host='0.0.0.0', port=8080)
+

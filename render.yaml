@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: aluminum-price-predictor
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn predictor:app
+    plan: free
+    envVars:
+      - key: FLASK_ENV
+        value: production
